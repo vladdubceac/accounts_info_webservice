@@ -8,3 +8,5 @@ Requirements:
 	spring.datasource.username, spring.datasource.password
 - Configure JDBC url for database connection spring.datasource.url
 - Running instance of database with created schema 'test_schema' and created function 'get_accounts()'
+
+After starting Spring boot application, enter http://localhost:8080/swagger-ui/index.html in a browser window
