@@ -3,7 +3,7 @@ Spring boot application.
 
 Requirements:
 - Postgres database installed.
-- MS-SQL database installed with a database 'test'.
+- MS-SQL database installed with a database 'master'.
 - Credentials for connection to database to be configured in application.properties
 	spring.datasource.username, spring.datasource.password
 - Configure JDBC url for database connection spring.datasource.url
