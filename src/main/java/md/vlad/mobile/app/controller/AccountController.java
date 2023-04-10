@@ -70,7 +70,7 @@ public class AccountController {
                     content = @Content)})
     public ResponseEntity getAccountByNumber(@Parameter(description = "Number (text value) of the account to be searched") @RequestParam("number") String number) throws Exception {
         Account account = accountService.getAccountByNumber(number).orElse(new Account());
-        if(account.getId()==null){
+        if (account.getId() == null) {
             return ResponseEntity.status(HttpStatus.NOT_FOUND).build();
         }
         return ResponseEntity.ok(account);

@@ -22,12 +22,12 @@ public class Account {
     @Column(name = "account_number")
     private String accountNumber;
 
-    @Column(name="balance")
+    @Column(name = "balance")
     private BigDecimal balance;
 
-    @Column(name="currency")
+    @Column(name = "currency")
     private String currency;
 
-    @Column(name="operation_date")
+    @Column(name = "operation_date")
     private Timestamp operationDate;
 }
